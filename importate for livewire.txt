@@ -1,0 +1,21 @@
+if u get error : Vite Manifest Not Found
+
+1) Make sure you have the latest version of both vite and laravel-vite-plugin: 
+	npm install vite@latest laravel-vite-plugin@latest --save-dev
+
+2) Ensure the Correct type in package.json: Since Vite and its plugins are ESM, your package.json should 
+have the "type": "module" field. This ensures Node treats your .js files as ESM files:
+	{
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  }
+}
+
+3)  Clear Node Modules and Reinstall: After these changes, try clearing your node_modules and 
+reinstalling to ensure there’s no conflict:
+  Remove-Item -Recurse -Force node_modules
+  Remove-Item -Force package-lock.json
+
+4) then reinstal and run : npm install  , npm run build
