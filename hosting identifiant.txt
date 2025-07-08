@@ -1,0 +1,8 @@
+password: 3KoL0G65rAI4
+
+MySQL Username: if0_39016100 
+
+
+MySQL Port (optional) : 3306
+
+database name: estateapp

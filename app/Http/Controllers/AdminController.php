@@ -14,8 +14,9 @@ class AdminController extends Controller
     public function home()
     {
         $data = Category::withCount('estates')->get(); // Fetch all categories
+        $estate = Estate::latest()->take(6)->get();  
         
-        return view('home.index', ['data' => $data]);
+        return view('home.index', ['data' => $data, 'estate' => $estate]);
     }
     // ------
      public function index()
@@ -115,17 +116,18 @@ class AdminController extends Controller
     public function AllEstateList()
     {
         $data = Estate::all(); 
-    $data->each(function ($estate) {
+        $data->each(function ($estate) {
         $estate->images_array = explode(',', $estate->images); // Add a property for the images array
-    });
-    return view('admin.all-estates-list', [
+        });
+        return view('admin.all-estates-list', [
         'data' => $data,
-    ]);
+        ]);
     }
 
     // users list -----
     public function UsersList()
     {
-    return view('admin.users');
+        $data = User::all();
+        return view('admin.users', ["data"=>$data]);
     }
 }

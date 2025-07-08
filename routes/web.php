@@ -34,6 +34,7 @@ route::get('/logout',[AdminController::class,'logout'])->name('logout');
 Route::get('/add-estate', [UserController::class, 'addEstate'])->name('add-estate');
 Route::post('/store-estate', [UserController::class, 'storeEstate'])->name('store-estate');
 Route::get('/estates-list/{category_id}', [UserController::class, 'estateList'])->name('estates-list');
+Route::get('/all-estates-list', [UserController::class, 'AllestateList'])->name('Allestates-list');
 Route::get('/estate-detail/{id}', [UserController::class, 'estateDetail'])->name('estate-detail');
 
 Route::post('/testForm', function (Request $request) {

@@ -81,11 +81,14 @@ class UserController extends Controller
         //return view('home.estate-detail');
     }
 
-    /* public function estateDetail($id)
+    // all estates list -----
+    public function AllestateList()
     {
-        $data = Estate::where('id',$id)->get();
-        return view('home.estate-detail', ['data' => $data,'images' => explode(',', $data->images)]);
-    } */
+        $data = Estate::all();         
+        return view('home.all-estates', ['data' => $data]);
+    }
+
+    // estate detail
     public function estateDetail($id)
     {
         $data = Estate::where('id', $id)->first(); // Fetch a single record

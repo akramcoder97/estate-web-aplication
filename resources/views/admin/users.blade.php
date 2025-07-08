@@ -5,33 +5,33 @@
 
   @include('admin.head')
 <style>
-    .search-bar{
+  .search-bar{
     position: relative;
-    }
+  }
 
-    .search-bar .fa-search{
+  .search-bar .fa-search{
     position: absolute;
     top:20px;
     left: 20px;
     color: #9ca3af;
-    }
+  }
 
-    .form-input{
+  .form-input{
     height: 55px;
     text-indent: 33px;
     border-radius: 10px;
-    }
-    .form-input-id{
+  }
+  .form-input-id{
     height: 35px;
     font-size: 14px;
     text-indent: 10px !important;
     border-radius: 10px;
-    }
-    .form-input:focus,
-    .form-input-id:focus{
+  }
+  .form-input:focus,
+  .form-input-id:focus{
     box-shadow: none;
     border: 2px solid #C4D9FF;
-    }
+  }
 
 </style>
 
@@ -64,11 +64,11 @@
               </div>
               <div class="search search-bar">
                 <i class="fa fa-search"></i>
-                <input type="text" class="form-control form-input" id="find" placeholder="Rechercher categorie.." onkeyup="search()">
+                <input type="text" class="form-control form-input" id="find" placeholder="Rechercher utilisateur.." onkeyup="search()">
               </div>
               <!-- ./card-header -->
               <div class="card-body" style="overflow-x: auto;">
-                <table class="table table-bordered table-hover" style="table-layout: fixed; min-width: 1650px;">
+                <table class="table table-bordered table-hover" style="">
                   <thead>
                     <tr>
                       <th style="width: 100px; padding: 2px !important;">
@@ -77,25 +77,22 @@
                           <input type="text" class="form-control form-input-id" id="findId" placeholder="Taper id.." onkeyup="searchId()">
                         </div>                        
                       </th>
-                      <th>Categorie</th> 
-                      <th>Type</th>
-                      <th style="width: 70px;">Etage</th>
-                      <th>Surface</th>
-                      <th>Wilaya</th>
-                      <th>Commune</th>
-                      <th>City</th>
-                      <th>Date</th>
+                      <th>Nom</th> 
+                      <th>Telephone</th>
+                      <th style="">Email</th>
+                      <th>Date d'insription</th>
                     </tr>
                   </thead>
                   <tbody>
-                    <tr>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
+                    @foreach($data as $item) 
+                    <tr class="tr">
+                      <td><p>{{$item->id}}</p></td>
+                      <td><span>{{$item->name}}</span></td>
+                      <td>{{$item->phone}}</td>
+                      <td>{{$item->email}}</td>
+                      <td>{{$item->created_at}}</td>
                     </tr>
+                    @endforeach
                   </tbody>
                 </table>
               </div>

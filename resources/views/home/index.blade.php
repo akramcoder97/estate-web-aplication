@@ -27,13 +27,13 @@
               <div class="row">
                 <div class="col-lg-8">
                   <div class="intro-body">
-                    <p class="intro-title-top">Doral, Florida
-                      <br> 78345</p>
+                    <p class="intro-title-top">58 Wilayas
+                      <br> </p>
                     <h1 class="intro-title mb-4">
-                      <span class="color-b">204 </span> Mount
-                      <br> Olive Road Two</h1>
+                      <span class="color-b">Bienvenue</span>
+                      <br> sur votre portail immobilier</h1>
                     <p class="intro-subtitle intro-price">
-                      <a href="#"><span class="price-a">rent | $ 12.000</span></a>
+                      <a href="#"><span class="price-a">Chercher maintenant</span></a>
                     </p>
                   </div>
                 </div>
@@ -50,13 +50,13 @@
               <div class="row">
                 <div class="col-lg-8">
                   <div class="intro-body">
-                    <p class="intro-title-top">Doral, Florida
-                      <br> 78345</p>
+                    <p class="intro-title-top">58 Wilayas
+                      <br> </p>
                     <h1 class="intro-title mb-4">
-                      <span class="color-b">204 </span> Rino
-                      <br> Venda Road Five</h1>
+                      <span class="color-b"></span> Maintenant
+                      <br>Achetez, louez, vendez en toute simplicité</h1>
                     <p class="intro-subtitle intro-price">
-                      <a href="#"><span class="price-a">rent | $ 12.000</span></a>
+                      <a href="#"><span class="price-a">Chercher maintenant</span></a>
                     </p>
                   </div>
                 </div>
@@ -73,13 +73,13 @@
               <div class="row">
                 <div class="col-lg-8">
                   <div class="intro-body">
-                    <p class="intro-title-top">Doral, Florida
-                      <br> 78345</p>
+                    <p class="intro-title-top">58 Wilayas
+                      <br></p>
                     <h1 class="intro-title mb-4">
-                      <span class="color-b">204 </span> Alira
-                      <br> Roan Road One</h1>
+                      <span class="color-b"> </span> 
+                      <br> Facilitez votre recherche immobilière avec nous</h1>
                     <p class="intro-subtitle intro-price">
-                      <a href="#"><span class="price-a">rent | $ 12.000</span></a>
+                      <a href="#"><span class="price-a">Chercher maintenant</span></a>
                     </p>
                   </div>
                 </div>
@@ -92,7 +92,7 @@
   </div>
   <!--/ Carousel end /-->
 
-  <!--/ Services Star /-->
+  <!--/ Services Star /
   <section class="section-services section-t8">
     <div class="container">
       <div class="row">
@@ -179,17 +179,12 @@
         </div>
       </div>
     </div>
-  </section>
+  </section>-->
   <!--/ Services End /-->
 
-  <!--/ Property Star /-->
-  
-  @include('home.properties')
-
-  <!--/ Property End /-->
  
   <!--/ Agents Star /-->
-  <section class="section-agents section-t8">
+  <!-- <section class="section-agents section-t8">
     <div class="container">
       <div class="row">
         <div class="col-md-12">
@@ -385,123 +380,23 @@
         </div>
       </div>
     </div>
-  </section>
+  </section> -->
   <!--/ Agents End /-->
 
-  <!--/ News Star /-->
-  <section class="section-news section-t8">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <div class="title-wrap d-flex justify-content-between">
-            <div class="title-box">
-              <h2 class="title-a">Latest News</h2>
-            </div>
-            <div class="title-link">
-              <a href="blog-grid.html">All News
-                <span class="ion-ios-arrow-forward"></span>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div id="new-carousel" class="owl-carousel owl-theme">
-        <div class="carousel-item-c">
-          <div class="card-box-b card-shadow news-box">
-            <div class="img-box-b">
-              <img src="img/post-2.jpg" alt="" class="img-b img-fluid">
-            </div>
-            <div class="card-overlay">
-              <div class="card-header-b">
-                <div class="card-category-b">
-                  <a href="#" class="category-b">House</a>
-                </div>
-                <div class="card-title-b">
-                  <h2 class="title-2">
-                    <a href="blog-single.html">House is comming
-                      <br> new</a>
-                  </h2>
-                </div>
-                <div class="card-date">
-                  <span class="date-b">18 Sep. 2017</span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="carousel-item-c">
-          <div class="card-box-b card-shadow news-box">
-            <div class="img-box-b">
-              <img src="img/post-5.jpg" alt="" class="img-b img-fluid">
-            </div>
-            <div class="card-overlay">
-              <div class="card-header-b">
-                <div class="card-category-b">
-                  <a href="#" class="category-b">Travel</a>
-                </div>
-                <div class="card-title-b">
-                  <h2 class="title-2">
-                    <a href="blog-single.html">Travel is comming
-                      <br> new</a>
-                  </h2>
-                </div>
-                <div class="card-date">
-                  <span class="date-b">18 Sep. 2017</span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="carousel-item-c">
-          <div class="card-box-b card-shadow news-box">
-            <div class="img-box-b">
-              <img src="img/post-7.jpg" alt="" class="img-b img-fluid">
-            </div>
-            <div class="card-overlay">
-              <div class="card-header-b">
-                <div class="card-category-b">
-                  <a href="#" class="category-b">Park</a>
-                </div>
-                <div class="card-title-b">
-                  <h2 class="title-2">
-                    <a href="blog-single.html">Park is comming
-                      <br> new</a>
-                  </h2>
-                </div>
-                <div class="card-date">
-                  <span class="date-b">18 Sep. 2017</span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="carousel-item-c">
-          <div class="card-box-b card-shadow news-box">
-            <div class="img-box-b">
-              <img src="img/post-3.jpg" alt="" class="img-b img-fluid">
-            </div>
-            <div class="card-overlay">
-              <div class="card-header-b">
-                <div class="card-category-b">
-                  <a href="#" class="category-b">Travel</a>
-                </div>
-                <div class="card-title-b">
-                  <h2 class="title-2">
-                    <a href="#">Travel is comming
-                      <br> new</a>
-                  </h2>
-                </div>
-                <div class="card-date">
-                  <span class="date-b">18 Sep. 2017</span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!--/ News End /-->
+
+
+   <!--/ Property Star /-->
+  
+   @include('home.properties')
+
+<!--/ Property End /-->
+
+<a class="float-right mr-3" href="{{route('Allestates-list')}}"> <i class="fas fa-arrow-circle-right"></i> tout les immobiliers..</a>
+<div class="mx-5">
+  <h3 class="title">les derniers immobiliers</h3>
+</div>
+
+@include('home.latestProperties')
 
   <!--/ Testimonials Star /-->
   <section class="section-testimonials section-t8 nav-arrow-a">
@@ -510,7 +405,7 @@
         <div class="col-md-12">
           <div class="title-wrap d-flex justify-content-between">
             <div class="title-box">
-              <h2 class="title-a">Testimonials</h2>
+              <h2 class="title-a">À propos de nous</h2>
             </div>
           </div>
         </div>
@@ -521,7 +416,7 @@
             <div class="row">
               <div class="col-sm-12 col-md-6">
                 <div class="testimonial-img">
-                  <img src="img/testimonial-1.jpg" alt="" class="img-fluid">
+                  <img src="img/pexels-mart-production-7414917.jpg" alt="" class="img-fluid" style="max-width: 500px;">
                 </div>
               </div>
               <div class="col-sm-12 col-md-6">
@@ -530,9 +425,7 @@
                 </div>
                 <div class="testimonials-content">
                   <p class="testimonial-text">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis, cupiditate ea nam praesentium
-                    debitis hic ber quibusdam
-                    voluptatibus officia expedita corpori.
+                    Passionnés par l’immobilier, nous mettons notre expertise et notre connaissance du marché local à votre service pour concrétiser vos projets.
                   </p>
                 </div>
                 <div class="testimonial-author-box">
@@ -548,7 +441,7 @@
             <div class="row">
               <div class="col-sm-12 col-md-6">
                 <div class="testimonial-img">
-                  <img src="img/testimonial-2.jpg" alt="" class="img-fluid">
+                  <img src="img/pexels-mart-production-7415107.jpg" alt="" class="img-fluid" style="max-width: 400px;">
                 </div>
               </div>
               <div class="col-sm-12 col-md-6">
@@ -557,9 +450,7 @@
                 </div>
                 <div class="testimonials-content">
                   <p class="testimonial-text">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis, cupiditate ea nam praesentium
-                    debitis hic ber quibusdam
-                    voluptatibus officia expedita corpori.
+                    Trouvez le bien immobilier qui vous correspond. Que ce soit pour acheter, louer ou investir, nous vous accompagnons à chaque étape.
                   </p>
                 </div>
                 <div class="testimonial-author-box">
